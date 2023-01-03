@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+:root {
+  --navFont: "Righteous", cursive;
+}
+
+html {
+  font-size: 16px;
+}
+
+.salesBar {
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgba(244, 164, 96, 0.3);
+  color: rgb(20, 2, 2);
+  font-size: 1rem;
+  text-decoration: underline;
+  text-align: center;
+}
+/*HEADER*/
+header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 3rem 2.5rem 2rem 6rem;
+  background-color: white;
+  height: 20vh;
+  z-index: 9;
+}
+.logo {
+  flex-basis: 20%;
+
+  flex-shrink: 2;
+}
+.logoImg {
+  width: 100%;
+}
+
+.navBar1 {
+  flex-basis: 70%;
+}
+
+.navBar2 {
+  flex-basis: 10%;
+}
+
+.navBar2 .navUl {
+  gap: 20%;
+}
+
+.navUl {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.navAnchor {
+  font-family: var(--navFont);
+  font-size: 1.2rem;
+}
+
+.navAnchor:hover {
+  border-bottom: 1px rgb(216, 240, 236);
+  border-style: groove;
+  padding-bottom: 0.5rem;
+}
+
+.icon {
+  width: 1.2rem;
+}
+
+main {
+  min-height: 80vh;
+  position: relative;
+  top: 20vh;
+}
+/*BANNER*/
+
+.banner {
+  background-color: rgba(216, 240, 236, 0.4);
+  width: 100vw;
+  height: 50vh;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerContent {
+  flex-basis: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: var(--navFont);
+  padding: 2rem;
+}
+
+.bannerContent span {
+  color: darkgoldenrod;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.bannerContent h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  line-break: strict;
+}
+
+.slogan {
+  font-size: 1.2rem;
+}
+
+.button {
+  width: 10rem;
+  background-color: black;
+  padding: 1rem;
+  font-weight: bold;
+  word-spacing: 0.5rem;
+  color: darkgoldenrod;
+  text-align: center;
+  border-radius: 8%;
+}
+
+.socialmedias {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  opacity: 0.5;
+}
+
+.bannerImage {
+  flex-basis: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.circle {
+  background-color: rgba(244, 164, 96, 0.3);
+  position: absolute;
+  z-index: 0;
+  width: 20%;
+  height: 40%;
+  border-radius: 50%;
+}
+.bannerImg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  right: 15%;
+  opacity: 0.8;
+}
