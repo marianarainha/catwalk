@@ -4,34 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--<link rel="icon" type="image/png" sizes="32x32" href="./images/.png" />-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/catfootprint_4993.png"
+    />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>C.A.T.W.A.L.K</title>
+    <title>Catwalk .</title>
   </head>
+
   <body>
+<!-------------------------------HEADER----------------------------->
     <header>
-      <div class="salesBar">
-        <a href="">Free shipping. 30-day return or refund garantee.</a>
-      </div>
-      <div class="logo">
-        <a href="">
-          <img class="logoImg" src="./images/logoCatwalk2.jpg" alt="" />
-        </a>
-      </div>
+      <a href=""
+        ><h1 class="logoName">Catwalk<span>.</span></h1></a
+      >
+
       <nav class="navBar1">
         <ul class="navUl">
+          <li><a class="navAnchor" href="#products">Products</a></li>
           <li><a class="navAnchor" href="#about">About us</a></li>
-          <li><a class="navAnchor" href="#shop">Shop</a></li>
-          <li><a class="navAnchor" href="#team">Team</a></li>
           <li><a class="navAnchor" href="#contact">Contact</a></li>
+          <li class="search">
+            <a href=""><img class="icon" src="./images/search.svg" alt="" /></a>
+            <input
+              class="searchForm"
+              type="text"
+              placeholder="find your product"
+            />
+          </li>
         </ul>
       </nav>
 
       <nav class="navBar2">
         <ul class="navUl">
           <li>
-            <a href=""><img class="icon" src="./images/search.svg" alt="" /></a>
+            <a href=""><img class="icon" src="./images/user.svg" alt="" /></a>
           </li>
           <li>
             <a href=""><img class="icon" src="./images/like.svg" alt="" /></a>
@@ -43,12 +53,16 @@
       </nav>
     </header>
     <main>
+               <!-------------------------------BANNER----------------------------->
       <div class="banner">
+        <div class="bannerImage"></div>
         <div class="bannerContent">
           <p><span>New collection</span></p>
-          <h1>Kids <span>summer</span> collection</h1>
-          <p class="slogan">Stay playful. Stay stylish.</p>
-          <a class="button" href="">Shop Now </a>
+
+          <h1>Catwalking on the <span>moon</span></h1>
+
+          <a class="button" href="#newCollection">Shop Now </a>
+
           <div class="socialmedias">
             <a href=""><img class="icon" src="./images/fb.svg" alt="" /> </a>
             <a href=""
@@ -67,16 +81,193 @@
             </a>
           </div>
         </div>
-        <div class="bannerImage">
-          <div class="circle"></div>
-          <img class="bannerImg" src="./images/banner5.png" alt="" />
+      </div>
+
+             <!-----------------------SHOP POLICY--------------------------->
+      <section>
+        <div class="politics">
+          <div class="politicItem">
+            <img class="politicIcon" src="./images/free-shipping.png" alt="" />
+            <div class="politicDescription">
+              <p>Free Home Delivery</p>
+              <p>Free home delivery for all product over 100$</p>
+            </div>
+          </div>
+
+          <div class="politicItem">
+            <img class="politicIcon" src="./images/quality.png" alt="" />
+            <div class="politicDescription">
+              <p>Quality Products</p>
+              <p>We ensure our product quality all times</p>
+            </div>
+          </div>
+
+          <div class="politicItem">
+            <img class="politicIcon" src="./images/return.png" alt="" />
+            <div class="politicDescription">
+              <p>3 Days Return</p>
+              <p>Our product return and refund policy is very simple</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+                          <!---------------------PRODUCTS--------------------->
+      <section id="products">
+
+                    <!-------------------------on sales--------------------------->
+       <div id="onSales">
+        <h2 class="categorysTitle sales">On Sales</h2>
+        <div class="productContenant" id="sales">
+          <div class="category">
+            <a href=""
+              ><img class="categoryPhoto" src="./images/banner1.jpg" alt="" />
+              <div class="categoryBanner">
+                <p>Up to <span>30%</span></p>
+                <p class="categoryName">Coats</p>
+              </div></a
+            >
+          </div>
+          <div class="category">
+            <a href="">
+              <img class="categoryPhoto" src="./images/banner4.jpg" alt="" />
+              <div class="categoryBanner">
+                <p>Black Monday <span>50% Off</span></p>
+                <p class="categoryName">Past collections</p>
+              </div></a
+            >
+          </div>
+          <div class="category">
+            <a href="">
+              <img class="categoryPhoto" src="./images/banner13.jfif" alt="" />
+              <div class="categoryBanner">
+                <p><span>New</span></p>
+                <p class="categoryName">Traditional Outfits</p>
+              </div></a
+            >
+          </div>
         </div>
       </div>
+              <!-------------------------New Collection---------------------->
+      <div id="newCollection">
+        <h2 class="categorysTitle new">New Collection</h2>
+
+        <div class="productContenant">
+
+          <div class="category">
+            <a href=""
+              >
+              <figure class="categoryPhoto">
+              <img class="categoryPhoto" src="./images/casual.jfif" alt="" />
+              <figcaption class="productDescription">Jeans waistcoat</figcaption>
+      
+                <figcaption class="price">30,90 $</figcaption>
+              </figure>
+              </a
+            >
+          </div>
+
+          <div class="category">
+            <a href=""
+              ><figure class="categoryPhoto">
+                <img class="categoryPhoto" src="./images/hoodie.jfif" alt="" />
+                <figcaption class="productDescription">Black hoodie</figcaption>
+        
+                  <figcaption class="price">20,99 $</figcaption>
+                </figure></a
+            >
+          </div>
+
+          <div class="category">
+            <a href=""
+              ><figure class="categoryPhoto">
+                <img class="categoryPhoto" src="./images/colorfulhoodie.webp" alt="" />
+                <figcaption class="productDescription">Patterned hoodie</figcaption>
+        
+                  <figcaption class="price">50,00 $</figcaption>
+                </figure></a
+            >
+          </div>
+
+          <div class="category">
+            <a href=""
+              ><figure class="categoryPhoto">
+                <img class="categoryPhoto" src="./images/sweater.webp" alt="" />
+                <figcaption class="productDescription">Striped sweater</figcaption>
+        
+                  <figcaption class="price">25,00 $</figcaption>
+                </figure></a
+            >
+          </div>
+
+          <div class="category">
+            <a href=""
+              ><figure class="categoryPhoto">
+                <img class="categoryPhoto" src="./images/jacket.webp" alt="" />
+                <figcaption class="productDescription">Military jacket</figcaption>
+        
+                  <figcaption class="price">60,00 $</figcaption>
+                </figure></a
+            >
+          </div>
+
+          <div class="category">
+            <a href=""
+              ><figure class="categoryPhoto">
+                <img class="categoryPhoto" src="./images/floral.jpg" alt="" />
+                <figcaption class="productDescription">Floral shirt</figcaption>
+        
+                  <figcaption class="price">15,00 $</figcaption>
+                </figure></a
+            >
+          </div>
+      </div>
+      </section>
+
+                     <!--------------------ABOUT US------------------------->
       <section id="about">
-        A specialist label creating luxury essentials. Ethically crafted with an
-        unwavering commitment to exceptional quality.
+        <h2>- About us -</h2>
+        <p class="about">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur
+          aperiam totam ut dolore nesciunt molestiae voluptas necessitatibus
+          ipsum, beatae tempora voluptate iste quod? Eligendi inventore unde
+          quas non, ratione laudantium. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ipsum sed, vero sint atque quasi nesciunt maxime
+          ducimus? Ut nostrum voluptatum reprehenderit facilis, totam voluptatem
+          voluptate. Explicabo fuga voluptate tempora ex?Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Facilis, quam labore in, assumenda
+          quibusdam soluta provident quae accusantium odio quas, est vel.
+          Corporis eveniet dolorum esse. Beatae ipsam dicta Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Reprehenderit aspernatur itaque
+          consequatur voluptate odio sunt, doloribus mollitia error eveniet ab
+          quod tempore ipsum officia, excepturi incidunt recusandae sit vel
+          reiciendis.lore7
+        </p>
+        <div class="missonsTeam">
+          <div class="team">
+            <figure>
+              <img class="teamPhoto" src="./images/stylish.jfif" alt="" />
+              <figcaption>Misty de Rouvray</figcaption>
+              <figcaption>Stylish director and co-founder</figcaption>
+            </figure>
+            <figure>
+              <img class="teamPhoto" src="./images/CEO.jfif" alt="" />
+              <figcaption>Salem Maleikom</figcaption>
+              <figcaption>CEO and co-founder</figcaption>
+            </figure>
+          </div>
+          <div class="missions">
+            <h3>- Our mission -</h3>
+            <p>
+              To create luxury essentials, ethically crafted with an unwavering
+              commitment to exceptional quality.
+            </p>
+          </div>
+        </div>
       </section>
     </main>
+
+                 <!-------------------------FOOTER------------------------------>
     <footer></footer>
   </body>
 </html>
