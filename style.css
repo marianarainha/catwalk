@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Righteous&family=Satisfy&display=swap");
 
 :root {
-  --navFont: "Satisfy", cursive;
-  --bannerFont: "Righteous", cursive;
   --garamond: "EB Garamond", serif;
 }
 
@@ -55,9 +53,8 @@ header {
 .searchForm {
   width: 70%;
   border-radius: 10px;
-  border: 1px solid black;
   padding: 2%;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 .navBar2 {
   flex-basis: 10%;
@@ -81,8 +78,7 @@ header {
 }
 
 .navAnchor:hover {
-  border-bottom: 3px rgb(216, 240, 236);
-  border-style: groove;
+  border-bottom: 3px groove rgb(216, 240, 236);
   padding-bottom: 0.5rem;
 }
 
@@ -374,7 +370,7 @@ section:nth-child(even) {
 }
 
 .team figcaption {
-  font-size: 70%;
+  font-size: 90%;
   margin-top: 3%;
 }
 
