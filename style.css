@@ -559,11 +559,11 @@ footer .socialmedias .icon {
   .category figcaption {
     font-size: 0.8rem;
     text-align: left;
-    padding-left: 5%;
+    padding-left: 2%;
   }
 
   .price {
-    margin-top: 0;
+    margin: 0;
     position: relative;
     bottom: 7.5%;
     left: 70%;
