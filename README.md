@@ -1,5 +1,5 @@
 # CATWALK - Fashion Webshop
-##Codecademy Challenge Project: Company Home Page with Flexbox
+## Codecademy Challenge Project: Company Home Page with Flexbox
 
 ## Table of contents
 
