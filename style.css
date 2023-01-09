@@ -258,6 +258,11 @@ section:nth-child(even) {
   width: 15em;
   height: 15rem;
   margin-bottom: 8%;
+  position: relative;
+}
+
+.category a {
+  position: relative;
 }
 
 .category:hover {
